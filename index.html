@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Image Gallery</h1>
+
+    <!-- Filters -->
+    <div class="filters">
+      <button data-filter="all" class="active">All</button>
+      <button data-filter="nature">Nature</button>
+      <button data-filter="city">City</button>
+      <button data-filter="tech">Tech</button>
+    </div>
+  </header>
+
+  <!-- Gallery -->
+  <div class="gallery">
+  <div class="gallery-item nature">
+    <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470" alt="Nature">
+  </div>
+
+  <div class="gallery-item city">
+    <img src="https://images.unsplash.com/photo-1467269204594-9661b134dd2b" alt="City">
+  </div>
+
+  <div class="gallery-item tech">
+    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475" alt="Tech">
+  </div>
+
+  <div class="gallery-item nature">
+    <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e" alt="Nature">
+  </div>
+
+  <div class="gallery-item city">
+    <img src="https://images.unsplash.com/photo-1494526585095-c41746248156" alt="City">
+  </div>
+
+  <div class="gallery-item tech">
+    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c" alt="Tech">
+  </div>
+</div>
+
+
+  <!-- Lightbox -->
+  <div class="lightbox">
+    <span class="close">&times;</span>
+    <span class="prev">&#10094;</span>
+    <img class="lightbox-img" />
+    <span class="next">&#10095;</span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
